@@ -4,19 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="John Doe" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
     <title>Document</title>
-    <style>
-      ul {
-        list-style-type: none;
-        background-color: red;
-      }
-    </style>
   </head>
   <body>
-    <div class="container">
-      click <a href="https://google.com">here</a> to visit Google website.
+    <div class="first-container"></div>
+    <div class="second-container"></div>
+    <h1>Welcome</h1>
 
-      <img src="images/bag.jpg" alt="An image of a brown bag" />
+    <h1 id="heading" class="title">Hello, World!</h1>
+
+    <!-- Child Selectors -->
+    <div>
+      <section>
+        <h1>Child Heading</h1>
+        <p>Child Paragraph</p>
+      </section>
     </div>
+
+    <!-- Adjacent sibling Selector -->
+    <h1 class="adjacent-element">Adjacent Heading</h1>
+    <p>Adjacent Paragraph</p>
+
+    <div style="background-color: lightgray; height: 40px"></div>
+
+    <!-- General Sibling Selector -->
+    <div>
+      <h1 class="general-sibling">General Sibling Heading</h1>
+      <p>General Sibling Paragraph</p>
+      <p>Another General Sibling Paragraph</p>
+    </div>
+
+    <!-- Pseudo-class Selectors -->
+    <div class="button-container">
+      <button>Click me</button>
+
+      <input type="text" placeholder="Enter your text" />
+
+      <a href="#">Click Me</a>
+      <img src="images/bag.png" alt="" />
+    </div>
+
+    <!-- Pseudo-element Selectors -->
   </body>
 </html>

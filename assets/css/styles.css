@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  color: coral !important;
+}
+
+#heading {
+  color: green;
+}
+
+body {
+}
+
+p {
+}
+
+h1 {
+  color: blue;
+}
+
+.first-container {
+  background-color: lightblue;
+  height: 80px;
+}
+
+.second-container {
+  background-color: red;
+  height: 80px;
+}
+
+div p {
+  color: red;
+}
+
+.adjacent-element + p {
+  color: purple;
+}
+
+.general-sibling ~ p {
+  color: cyan;
+}
+
+.button-container {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+}
+
+button:hover {
+  background-color: red;
+}
+
+input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid green;
+}
+
+a:hover {
+  color: red;
+}
+
+h1::first-letter {
+  font-size: 45px;
+  color: red;
+}

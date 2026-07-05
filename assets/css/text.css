@@ -1,0 +1,23 @@
+/* Text manipulation */
+
+.welcome {
+  font-size: 40px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+  background-color: lightblue;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.container {
+  border: dotted;
+  background-color: black;
+  padding: 10px 10px 40px 15px;
+  margin: 20px 10px;
+}
+
+.inner-container {
+  height: 50px;
+  background-color: red;
+}
